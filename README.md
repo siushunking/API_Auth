@@ -1,11 +1,18 @@
 # API_Auth
 
 ##簡介項目內容
-模仿電商平台如蝦皮和博客萊， 使用者分別有消費者，商家和管理者。 該項目為後端測試 利用Postman 測試後端部署是否成功，
+模仿電商平台如蝦皮和博客萊等， 使用者分別為消費者，商家和管理者。 該項目使用後端測試，並利用Postman 測試後端部署是否成功
 
+程式要求：
 後端：nodejs express.js
 資料庫： mongodb
 
+認證功能簡介
+1. jwt
+2. passport
+3. joi
+
+功能簡介
 1. 消費者只可以購買商品，不可以增加商品
 2. 商家可以增加商品用作銷售
 3. 管理者(admin) 可以管理消費者和商家行為如果出現不當行為
@@ -17,7 +24,7 @@
 <img width="583" alt="螢幕截圖 2022-04-01 下午1 27 07" src="https://user-images.githubusercontent.com/85872659/161202715-a67e11bc-2d4a-4280-868e-f65dcacc775c.png">
 
 
-## 系統可以拒絕重覆註冊
+## 重覆註冊
 <img width="464" alt="螢幕截圖 2022-04-01 下午1 16 51" src="https://user-images.githubusercontent.com/85872659/161202944-80eee912-6ca3-4a29-96b5-c7de0e9fb3b8.png">
 
 ## 確認密碼失敗
